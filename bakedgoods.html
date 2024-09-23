@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baked goods</title>
+    <link rel="stylesheet" href="../static/styles_baked.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script defer src = "../static/script.js"></script>
+</head>
+<body onload = "getCountDown()">
+    <header>
+        <p id = "promo">[PROMOTION] Receive a complimentary Blossom Cupcake with your purchase! | ends in</p>
+        <p id = "time"></p>
+    </header>
+    <div class="navbar">
+        <a href="index.html" title = "Home page">HOME</a>
+        <a href="seasonal.html" title = "Seasonal page">SEASONAL</a>
+        <a href="bakedgoods.html" class = "active" title = "Baked goods page">BAKED GOODS</a>
+        <a href="booking.html" title = "Booking page">BOOKING</a>
+        <a href="contact.html" title = "Contact page">CONTACT</a>
+    </div>
+    <div id = "tabs">
+        <ul id = "tab-links">
+            <li><a href="#cookies" title = "Cookies subpage">COOKIES</a></li>
+            <li><a href="#cupcakes" title = "Cupcakes subpage">CUPCAKES</a></li>
+            <li><a href="#custom" title = "Custom subpage">CUSTOM</a></li>
+        </ul>
+        <div id="cookies" class="tab">
+            <div id="sideL1">
+                <h2>Cookie Trays</h2>
+                <ul>
+                    <li>Perfect for parties, weddings, showers, or corporate events</li>
+                    <li>Choose which size tray & up to 5 kinds of cookies per tray</li>
+                    <li>Flavors
+                        <ul>
+                            <li>almond choco chunk, choco chip, cookies & cream, coconut, drop sugar cookie (sugar sprinkles/choco drizzle), Italian Easter, orange cream, peanut butter, pumpkin choco chip (seasonal), raspberry thumbprints, snickerdoodles, snowballs</li>
+                            <li>*cream cheese mints, peanut butter blossom, red velvet peanut butter blossoms</li>
+                        </ul>
+                    </li>
+                    <li>Pricing
+                        <ul>
+                            <li>Small - 5 dozen - $54.00</li>
+                            <li>Medium - 10 dozen - $97.00</li>
+                            <li>Large - 12 dozen - $112.00</li>
+                            <li>By the dozen - 8.00 (*9.00)</li>
+                        </ul>
+                    </li>
+                </ul> 
+                <h2>Cookie Gift Boxes</h2>
+                <ul>
+                    <li>Call us to learn more!</li>
+                </ul>
+            </div>
+            <div id="sideR1">
+                <h2>Cookie Cakes</h2>
+                <ul>
+                    <li>12 Inch X 1 Inch (equivalent to 5 dozen cookies)</li>
+                    <li>Other themes available. Message only.</li>
+                    <li>Pricing
+                        <ul>
+                            <li>With Border & Sprinkles - $35.00</li>
+                            <li>Decorated - $40.00 & up</li>
+                        </ul>
+                    </li>
+                </ul>
+                <img src="../static/photos/cookie.jpg" alt="Lavender cookie cake">
+            </div>
+        </div>
+        <div id="cupcakes" class = "tab">
+            <div id = "sideL2">
+                <h2>Cupcakes</h2>
+                <ul>
+                    <li>Standard cupcakes are $2.00 each and include sprinkles if desired</li>
+                    <li>Decorations are extra depending on details</li>
+                </ul>
+                <h2>Cupcake Bouquets</h2>
+                <ul>
+                    <li>A truly unique gift for any occasion</li>
+                    <li>Each box is filled with 9 beautifully decorated flower cupcakes and topped with a decorative bow</li>
+                    <li>Vanilla and chocolate</li>
+                    <li>$32.00</li>
+                </ul>
+                <h2>Celebration Cupcakes</h2>
+                <ul>
+                    <li>$2.00 for buttercream swirl and sprinkles or glitter</li>
+                    <li>Decorations are extra depending on size and design</li>
+                    <li>Contact us for pricing</li>
+                </ul>
+            </div>
+            <div id = "sideR2">
+                <h2>Cupcake Creations</h2>
+                <ul>
+                    <li>Our cupcake cakes are priced according to the number of cupcakes needed for the design</li>
+                    <li>Please inquire about possible designs</li>
+                </ul>
+                <img src="../static/photos/cupcake.jpg" alt="Flamingo cupcake creation">
+            </div>
+        </div>
+        <div id="custom" class = "tab">
+            <div id = "sideL3">
+                <h2>Custom Made Cookies</h2>
+                    <ul><li>Please call for pricing</li></ul>
+                <h2>Custom Made Cakes</h2>
+                    <ul>
+                        <li>Cakes are booked according to our schedule</li>
+                        <li>PLEASE NOTE: our cakes and icing are made fresh with quality ingredients and beautifully decorated by hand. We put 3 layers of filling in each tier of our round and square cakes, so our cakes are bigger than the grocery stores and therefore cost more</li>
+                        <li>1 layer sheet cakes are not filled</li>
+                        <li>2 layer sheets are filled between the layers</li>
+                        <li>Basic cake flavors: vanilla, chocolate, almond, strawberry, banana, red velvet</li>
+                        <li>Other flavors available upon request. An additional charge may apply.</li>
+                    </ul>
+            </div>
+            <div id = "sideR3">
+                <img src="../static/photos/custom.jpg" alt="Wedding cake and cookie setup">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Say It With Sweets  |  1307 Pleasant Valley Blvd., Altoona PA, 16602, US  |  (814)-937-1564<br>All photos courtesy of Say It With Sweets</p>
+    </footer>
+</body>
+</html>
